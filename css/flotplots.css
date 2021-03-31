@@ -1,0 +1,86 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12/10/2014, 9:54:59 AM
+    Author     : ivan
+*/
+
+.spectra_info {
+    text-align: left;
+    margin-left: 40px;
+    width: 850px;
+
+}
+
+.spectra_info tr:hover {
+    background:#00CC99;
+}
+
+.spectra_info td {
+    overflow:hidden;
+}
+
+.spectra_info tr a {
+    color:#000;
+}
+
+.spectra_info a {
+    text-decoration: underline;
+}
+
+
+.spectra_plot {
+    margin: 20px;
+    width: 900px;
+    height: 400px;
+    float: left;
+}
+
+.stats_plot {
+    margin: 20px;
+    width: 400px;
+    height: 200px;
+    float: left;
+}
+
+#linelabels {
+    position:absolute;
+    margin: 20px;
+    left: 910px;
+    top:0px;
+    width: 150px;
+    height: 350px;
+    overflow-y:auto;
+    overflow-x:hidden;
+    
+}
+
+#spectrachoices {
+    margin-left: 75px;
+    width: 840px;
+    max-height: 100px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;    
+    border: 1px solid gray;
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+
+#linesave {
+    position:absolute;
+    left: 900px;
+    top:360px;
+    margin: 20px;
+    width: 150px;
+    height: 50px;
+    overflow:auto;
+}
+
+
+.extendbutton {
+    width: 100%;
+}

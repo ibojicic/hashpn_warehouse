@@ -1,0 +1,177 @@
+/* Main Content */
+
+section#main {
+    width: 90%;
+    float:left;
+    margin-top: 3px;
+    margin-left: 5%;
+    height: 0px;
+}
+
+
+
+
+/* Modules */
+
+.module {
+    border: 1px solid #9BA0AF;
+    width: 100%;
+    margin: 0px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: #ffffff;
+}
+
+.noborder {
+    border-style: none;
+}
+
+.helixback {
+    background-image: url(../images/Helixpop.jpg);
+    background-size: 100% ;
+    min-width: 300px;
+}
+
+.helixbackregister {
+    background-image: url(../images/Helixpop_gs_30.jpg);
+    background-size: 100% ;
+    min-width: 650px;
+    min-height: 450px;
+
+    
+}
+
+#main .module header h3 {
+display: block;
+width: 90%;
+float: left;
+}
+
+.module header {
+height: 38px;
+width: 100%;
+background: #F1F1F4 url(../images/secondary_bar.png) repeat-x;
+-webkit-border-top-left-radius: 5px; -webkit-border-top-right-radius: 5px;
+-moz-border-radius-topleft: 5px; -moz-border-radius-topright: 5px;
+border-top-left-radius: 5px; border-top-right-radius: 5px;
+}
+
+.module footer {
+height: 32px;
+width: 100%;
+border-top: 1px solid #9CA1B0;
+background: #F1F1F4 url(../images/module_footer_bg.png) repeat-x;
+-webkit-border-bottom-left-radius: 5px; -webkit-border-bottom-right-radius: 5px;
+-moz-border-radius-bottomleft: 5px; -moz-border-radius-bottomright: 5px;
+-webkit-border-bottom-left-radius: 5px; -webkit-border-bottom-right-radius: 5px;
+}
+
+
+.module_content {
+    margin: 10px 20px;
+    color: #666;}
+
+/* Module Widths */
+
+.width_full {
+    width: 100%;
+    margin: 2px auto 5px auto;
+}
+
+.width_half {
+    width: 46%;
+    margin: 1% 0% 1% 3%;
+    float: left;
+}
+
+.width_quarter {
+    width: 21%;
+    margin: 1% 0% 1% 3%;
+    float: left;
+}
+
+.width_3_quarter {
+    width: 71%;
+    margin: 1% 0% 1% 3%;
+    float: left;
+}
+
+.width_1_sixths {
+    width: 13%;
+    margin: 1% 0% 1% 3%;
+    float: left;
+}
+
+.width_5_sixths {
+    width: 81%;
+    margin: 1% 0% 1% 3%;
+    float: left;
+}
+
+
+.width_infocontainer {
+    width:80%;
+    /*max-width: 1000px;*/
+    height: 90%;
+    margin-right: 0;
+    position:absolute;
+    left: 260px;
+    top: 50px;
+}
+
+.width_half_centered {
+    width: 50%;
+    margin: 2% 25%;
+    float: left;
+}
+
+.width_3_quarter_centered {
+    width: 71%;
+    margin: 2% 12%;
+    float: left;
+}
+
+
+.message_list {
+height: 250px;
+overflow-x:hidden;
+overflow-y: scroll;
+}
+
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('../images/page-loader.gif') 50% 50% no-repeat rgb(249,249,249);
+}
+
+
+/*********** HELP ********************/
+#helppage {
+    text-align: left;
+    padding: 20px;
+}
+
+.helpbutton {
+    color:blue;
+        
+}
+
+
+#helppage p {
+    text-align: justify;
+    padding: 10px 20px;
+}
+
+/************* USER STATS ************/
+
+.userlinks {
+    text-align: left;    
+}
+
+
+/************** extra stuff ***********/

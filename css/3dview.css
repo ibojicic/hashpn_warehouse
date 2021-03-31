@@ -1,0 +1,29 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 6, 2016, 9:28:24 AM
+    Author     : ibojicic
+*/
+
+#d3view {
+    background-color: #000000;
+    margin: 0px;
+    overflow: hidden;
+    font-family:Monospace;
+    font-size:13px;
+    text-align:center;
+    font-weight: bold;
+    text-align:center;
+}
+
+
+#d3info {
+    color: #fff;
+    position: absolute;
+    top: 0px; width: 100%;
+    padding: 5px;
+    z-index: 100;
+}

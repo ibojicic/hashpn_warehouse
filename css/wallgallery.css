@@ -1,0 +1,53 @@
+/********************* 	WALL Gallery *************/
+ul.sortable {
+    width: 97%; 
+    float: left; 
+    margin: 5px 0; 
+    list-style: none; 
+    position: relative !important;
+}
+
+ul.sortable li {
+    height: 120px; 
+    float: left; 
+    margin: 0 2px 2px 0; 
+    cursor: move;
+}
+
+ul.sortable li img {
+    height: 100%; 
+    float: left;
+}
+
+ul.sortable li.ui-sortable-helper {
+    border-color: #3498db;
+}
+
+ul.sortable li.placeholder {
+    height: 110px; 
+    width: 10px; 
+    float: left; 
+    background: #eee; 
+    border: 2px dashed #bbb; 
+    display: block; 
+    opacity: 0.6;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+.wall {
+    display:inline-block;
+    height: 100%;
+
+}
+.walluse {
+    position:relative;
+    float: left;
+    height: 122px;
+    width: 122px;
+    margin: 1px;
+    padding: 1px;
+}
+
+

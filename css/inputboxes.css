@@ -1,0 +1,180 @@
+
+
+fieldset {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: #F6F6F6;
+    border: 1px solid #ccc;
+    padding: 1% 0%;
+    margin: 2px 0;
+}
+
+fieldset ul {
+    margin: 0px;
+    text-align: left;
+}
+
+fieldset li {
+    margin: 0px;
+    text-align: left;
+}
+
+fieldset label {
+    display: block;
+    float: left;
+    width:100px;
+    height: 5px;
+    line-height: 25px;
+    text-shadow: 0 1px 0 #fff;
+    font-weight: bold;
+    padding-left: 2px;
+    margin: -2px 0 2px 0;
+}
+
+fieldset input[type=text] {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #BBBBBB;
+    height: auto;
+    color: #666666;
+    -webkit-box-shadow: inset 0 2px 2px #ccc, 0 1px 0 #fff;
+    -moz-box-shadow: inset 0 2px 2px #ccc, 0 1px 0 #fff;
+    box-shadow: inset 0 2px 2px #ccc, 0 1px 0 #fff;
+    background-position: 10px 6px;
+    padding: 5px 5px;
+    display: block;
+    float:none;
+    /*width: 90%;*/
+}
+
+fieldset input[type=text]:focus {
+    outline: none;
+    border: 1px solid #77BACE;
+    -webkit-box-shadow: inset 0 2px 2px #ccc, 0 0 10px #ADDCE6;
+    -moz-box-shadow: inset 0 2px 2px #ccc, 0 0 10px #ADDCE6;
+    box-shadow: inset 0 2px 2px #ccc, 0 0 10px #ADDCE6;
+}
+
+fieldset select {
+    width:auto;
+    margin: 0 2px;
+    border: 1px solid #bbb;
+    height: 20px;
+    color: #666666;
+}
+
+fieldset textarea {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #BBBBBB;
+    color: #666666;
+    -webkit-box-shadow: inset 0 2px 2px #ccc, 0 1px 0 #fff;
+    -moz-box-shadow: inset 0 2px 2px #ccc, 0 1px 0 #fff;
+    box-shadow: inset 0 2px 2px #ccc, 0 1px 0 #fff;
+    padding-left: 2px;
+    background-position: 10px 6px;
+    margin: 0 0.5%;
+    display: block;
+    float: left;
+    width: 96%;
+    margin: 0 2px;
+}
+
+fieldset textarea:focus {
+    outline: none;
+    border: 1px solid #77BACE;
+    -webkit-box-shadow: inset 0 2px 2px #ccc, 0 0 10px #ADDCE6;
+    -moz-box-shadow: inset 0 2px 2px #ccc, 0 0 10px #ADDCE6;
+    boxshadow: inset 0 2px 2px #ccc, 0 0 10px #ADDCE6;
+}
+
+h5#inpboxnote  {
+    background:darkorange;
+    color:#F6F6F6;
+    margin: 0px;
+    padding: 0px;
+    margin: 2px;
+}
+
+#infotables{
+    height: 100px;
+    overflow: scroll;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.mesgdialog h3 {
+    margin: 5px 10px 5px 10px;
+    text-align: left;
+}
+.mesgdialog h4 {
+    margin: 5px 10px 5px 10px;
+}
+
+/* *************************************** */
+
+/* INPUT FORMS */
+
+.inpdialog {
+    text-align: right;
+}
+
+fieldset.inpdialog{
+    font-size:large;
+}
+
+
+
+.inputcontainer {
+    width: auto;
+    clear: both;
+}
+.inputcontainer input {
+    width: auto;
+    clear: both;
+}
+
+.noscroll {
+    overflow:hidden !important;
+}
+
+
+.div-full {
+    width: 720px;
+    height: 320px;
+    text-align: center;
+}
+
+.div-full h4 {
+    margin: 5px;
+    padding: 0px;
+}
+.div-left {
+    float: left;
+    width:380px;
+}
+
+.div-right {
+    padding-left: 10px;
+    width:300px;
+    height: 280px;
+    overflow-y: scroll;
+
+}
+
+.div-rightbottom {
+    padding-left: 10px;
+    width:300px;
+    overflow-y: scroll;
+}
+.text-search {
+    width: 500px;
+    text-align: center;
+}
+
+
+

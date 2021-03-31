@@ -1,0 +1,337 @@
+/* Object Info */
+section#objectinfo {
+    width: 100%;
+}
+.tabcontainer {
+    position:relative;
+    top: 0px;
+    float: left;
+    width: 100%
+}
+
+/* Sidebar Object Window */
+aside#sidebar_object {
+    width: 10%;
+    min-height: 500px;
+    min-width: 200px;
+    margin-left: 50px;
+}
+
+aside#sidebar_object_inmain {
+    width: 10%;
+    min-height: 500px;
+    min-width: 200px;
+    margin-left: 0px;
+}
+
+/* INFODIV */
+#infodiv {
+    margin-top: 10px;
+}
+
+#infodiv img {
+    height: 35px;
+}
+
+#infodiv a {
+    text-decoration: underline;
+}
+
+#infodiv h3 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+#infodiv h4 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+/** header tables **/
+
+#headertable_info{
+    width:100%;
+    border-collapse:collapse;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 190px;
+
+}
+#headertable_info table {
+    width:190px;
+    table-layout: fixed;
+}
+#headertable_info td, #headertable_info th{
+    text-align: right;
+    border:1px solid #000000;
+    padding:3px 7px 2px 7px;
+    color:#000;
+    text-overflow: ellipsis; 
+    overflow: hidden;
+    white-space:nowrap;
+}
+
+#headertable_info th {
+    text-align:right;
+    background-color:#006363;
+    color:#ECF3E1;
+    width: 45px;
+}
+#headertable_info td{
+    width: 110px;
+}
+
+/** external links **/
+#internal_links {
+    text-align: left;
+    padding-left: 10px;
+}
+
+/** coords tables **/
+
+#coordstable_info{
+    width:190px;
+    border-collapse:collapse;
+}
+#coordstable_info td, #coordstable_info th{
+    text-align: right;
+    border:1px solid #000000;
+    padding:3px 7px 2px 7px;
+    color:#000;
+    white-space:nowrap;
+}
+
+#coordstable_info th {
+    text-align:right;
+    background-color:#606070;
+    color:#ECF3E1;
+    width: 45px;
+}
+
+#coordstable_info td {
+    width: auto;
+    font-size: 10px;
+    width: 110px;
+}
+
+
+/*EXTRAS CONSTRUCT REDO*/
+#coordstable_view{
+    border-collapse:collapse;
+}
+#coordstable_view a{
+    text-decoration: none;
+    cursor:pointer;
+}
+#coordstable_view td, #coordstable_view th{
+    font-size:10px;
+    border:1px solid #98bf21;
+    padding:1px 1px 1px 1px;
+}
+
+
+
+/*  TABS */
+
+.tab_content {
+    overflow:auto;
+    height: 100%;
+}
+
+ul.tabs {
+    margin: 3px 10px 0 0;
+    padding: 0;
+    float: right;
+    list-style: none;
+    height:auto; /*--Set height of tabs--*/
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 0 #fff;
+    -moz-box-shadow: 0 1px 0 #fff;
+    box-shadow: 0 1px 0 #fff;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    text-shadow: 0 1px 0 #fff;
+}
+ul.tabs li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    line-height: 24px;
+}
+ul.tabs li a {
+    text-decoration: none;
+    color: #999;
+    display: block;
+    padding: 0 10px;
+    height: 24px;
+}
+
+ul.tabs li a:hover {
+    color: #44474F;
+}
+
+html ul.tabs li.active a  {
+    color: #44474F;
+}
+
+html ul.tabs li.active, html ul.tabs li.active a:hover  {
+    background: #F1F2F4;
+    -webkit-box-shadow: inset 0 2px 3px #818181;
+    -moz-box-shadow: inset 0 2px 3px #818181;
+    box-shadow: inset 0 2px 3px #818181;
+}
+
+html ul.tabs li:first-child, html ul.tabs li:first-child a  {
+    -webkit-border-top-left-radius: 5px; -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-topleft: 5px; -moz-border-radius-bottomleft: 5px;
+    border-top-left-radius: 5px; border-bottom-left-radius: 5px;
+}
+
+html ul.tabs li:last-child, html ul.tabs li:last-child a  {
+    -webkit-border-top-right-radius: 5px; -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-topright: 5px; -moz-border-radius-bottomright: 5px;
+    border-top-right-radius: 5px; border-bottom-right-radius: 5px;
+}
+
+#main .module header h3.tabs_involved {
+    display: block;
+    width: 30%;
+    float: left;
+}
+
+/* ************* accordion list (expandable on click) ******************/
+
+#accolists .ui-accordion-content{
+
+}
+
+.accolist {
+    width:auto;
+    text-align:center;
+    margin: 20px;
+
+}
+
+.accolist .ui-accordion-content {
+    overflow: auto;
+    padding: 0px;
+    text-align:left;
+
+}
+
+/*******************/
+
+#fulldatatable{
+    width:100%;
+    border: 1px solid #e6e6e6;
+    margin: 5px 0px;
+}
+
+#fulldatatable.oddf {
+    background: #F0F0F0;
+}
+
+#fulldatatable.evenf {
+    background: #ECF3E1;
+}
+
+
+#fulldatatable fieldset {
+    /*overflow: scroll;*/
+    width:inherit;
+}
+
+#fulltablesheader {
+    width: 98%;
+    display:block;
+    margin: 5px;
+    padding: 5px;
+    height: 30px;
+}
+#fulltablestitle {
+    font-size: 16px;
+    float:left;
+    margin: 8px;
+}
+
+#fulltablesadd {
+    float:left;
+}
+
+
+#fulltables {
+    position:relative;
+    overflow: scroll;
+    margin: 5px;
+    /*max-height: 300px;*/
+}
+/********* rgb table **********/
+
+#rgbtable {
+    text-align: left;
+    padding: 0px;
+}
+
+#rgbtable input{
+    padding: 0px;
+    background-color:transparent;
+    border: 0px solid;
+
+}
+
+.checkobjectpage {
+    background:#fff3f3;
+}
+
+.infoobjectpage {
+    background:whitesmoke;
+}
+
+/** userinfo tables **/
+
+#usertable_info{
+    width:100%;
+    border-collapse:collapse;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: left;
+
+}
+#usertable_info table {
+    width:auto;
+    table-layout: fixed;
+}
+#usertable_info td, #usertable_info th{
+    text-align: right;
+    padding:3px 7px 2px 7px;
+    color:#000;
+    text-overflow: ellipsis; 
+    overflow: hidden;
+    white-space:nowrap;
+}
+
+#usertable_info th {
+    text-align:right;
+    background-color:#006363;
+    color:#ECF3E1;
+    width: 45px;
+}
+#usertable_info td{
+    width: 110px;
+}
+
+.condpossearch {
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+}
+
+#info3d {
+    color: #fff;
+    position: absolute;
+    top: 0px; width: 100%;
+    padding: 5px;
+    z-index: 100;
+}

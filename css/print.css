@@ -1,0 +1,46 @@
+/* 
+    Document   : print
+    Created on : Nov 7, 2013, 5:43:05 PM
+    Author     : ivan
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+#toggleoverlaydiv, #internal_links, #header, #object_links, .caption, .caption-container {display: none;}
+
+#tabs {visibility: hidden}
+
+#tab1 {visibility:visible}
+
+
+
+.imgoverlays {
+    position:absolute;
+    left: 0px;
+    top: 0;
+    border: 1px solid #ccc;
+    max-width: 625px;
+    max-height: 625px;
+}
+
+div.slideshow img {
+        position:absolute;
+        left: 0px;
+        top: 0;
+	border: 1px solid #ccc;
+        max-width: 625px;
+        max-height: 625px;
+}
+
+a.thumb {
+	padding: 2px;
+	display: block;
+	border: 1px solid #ccc;
+        height: 120px;
+        width: 120px;
+}

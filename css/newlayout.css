@@ -1,0 +1,124 @@
+/* Essentials */
+
+html, div, map, dt, isindex, form, header, aside, section, section, article, footer {
+    display: block;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    background: #F8F8F8;
+    font-size: 12px;
+    text-align: center;
+    min-width: 600px;
+}
+
+
+
+a:link, a:visited {
+    color:#00F;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header bar*/
+
+header#header {
+    height: 40px;
+    width: 100%;
+    background:#000000;
+
+}
+
+header#header h1.site_title,h2.section_title {
+    float: left;
+    margin: 0;
+    margin-left: 50px;
+    margin-right: 5px;
+    font-size: 18px;
+    display: block;
+    width: auto;
+    height: 40px;
+    font-weight: normal;
+    text-align: left;
+    text-indent: 0.5%;
+    line-height: 40px;
+    color: #fff;
+    min-width: 50px;
+    white-space:nowrap;
+}
+
+header#header h2.section_title {
+    margin: 0 auto 0 auto;
+    width: auto;
+    text-align: left;
+    white-space:nowrap;
+}
+
+header#header h3.logo {
+    float: right;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    margin-right: 5%;
+    
+}
+
+header a:link, a:visited {
+    color: #77BACE;
+    text-decoration: none;
+}
+
+/* Logo and User */
+
+#logouser {
+    position:relative;
+    float: right;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 5%;
+    /*width: 500px;*/
+    display: inline-block;
+    height: 40px;
+}
+
+.logo {
+    float:right;
+    /*position: absolute;
+    right:0px;*/
+}
+
+
+
+.user {
+    float: right;
+    color:#D20009;
+    margin-right: 30px;
+    /*position: absolute;
+    /left:0px;*/
+    margin-top: -4px;
+    
+        
+}
+
+.user h4 {
+    display: inline-block;
+;
+
+}
+
+.user img {
+   margin-bottom: -2px;
+}
+
+/********************/
+
+
+
+
+
